@@ -1,0 +1,23 @@
+Estruturas condicionais permitem que um programa tome decisões com base em condições. 
+
+tipos:
+if -> é a condição Se por exemplo se um número for maior que o outro tal coisa acontecerá.
+elif -> essa condição é usada para dar uma outra opçao se o if não for comprido
+é usado quando o código precisa de muitas condições.
+else -> usado para encerrar o ciclo de condições
+
+código:
+pessoas = 0
+
+while pessoas <= 5:
+    idade = int(input("Digite sua idade: "))
+    sexo = input("Digite seu sexo: M para masculino ou F para feminino: ")
+    pessoas += 1
+    if idade < 18:
+        print("Você é menor de idade! ")
+    elif idade >= 18 and idade <= 50:
+        print("Você é adulto! ")
+
+    else:
+        print("Você é idoso! ")
+

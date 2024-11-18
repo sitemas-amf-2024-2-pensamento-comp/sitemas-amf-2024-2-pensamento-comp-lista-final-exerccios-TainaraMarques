@@ -1,0 +1,9 @@
+int -> é o tipo de variável usada para armazenar números inteiros. 
+Ex: x = 2
+
+float -> é o tipo de variável para armazenar números também mas somente números com vírgula, é a melhor forma de armazenar informações por exemplo dinheiro ou notasl.
+
+string -> é usada para armazenar caracteres usadas para formar um texto
+Ex: "Olá"
+
+bool -> representa valores lógicos, por exemplo True ou False.

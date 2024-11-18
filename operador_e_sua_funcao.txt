@@ -1,0 +1,39 @@
+Operadores são símbolos ou palavras reservadas que indicam operações a serem realizadas em valores ou variáveis.
+
+Operadores:
+
+menor(<) -> esse operador representa que um número é menor que outro.
+maior(>) -> esse operador representa que um número é maior que outro.
+atribuição(=) -> esse operador atribui um valor a uma variável.
+maior igual(>=) -> esse operador representa que um número é maior ou igual a tal número muito usado para condições.
+menor igual(<=) -> esse operador representa que um número é menor ou igual a tal número também usado para condições.
+diferença(!=) -> o operador de diferença mostra que um número é diferente do outro, esse operador é outro que tambem é usado para condições.
+igualdade (==) -> o operador representa que um número ou variável é igual ao outro.
+(OR) -> quando esse operador é usado significa que tem duas condições e uma delas precisa atendida pra entrar no loop.
+(AND) -> outro que é usado quando tem duas ou mais condições mas nessa as duas ou main precisam ser atendidas para entrar no loop.
+(NOT) -> O operador not é um operador lógico em Python que inverte o valor de uma expressão booleana. Se a expressão for True, o operador not retorna False e vice-versa.
+
+Códigos:
+menor, maior, and, atribuição
+X = 9
+y = 5
+A = 8
+
+if y < X and y < A:
+    print ("Menor que A e X")
+
+
+or, ==, <=
+a = 3
+b = 7
+c = 3
+
+if a <= b or a == c:
+    print("")
+
+!=, >=, not
+a = 7
+b = 4
+
+if a >= b and b != a:
+    print(not False)
